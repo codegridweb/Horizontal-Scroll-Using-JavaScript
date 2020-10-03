@@ -1,0 +1,66 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background: #161616;
+    overflow: hidden;
+}
+
+.block {
+    position: relative;
+    width: 580px;
+    height: 460px;
+    margin: 10px 300px 20px 80px;
+}
+
+h1 {
+    position: absolute;
+    font-family: "Monument Extended";
+    font-weight: lighter;
+    font-size: 64px;
+}
+
+.block-1 {
+    background: url(img-one.jpeg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.block-2 {
+    background: url(img-two.jpeg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.block-3 {
+    background: url(img-three.jpeg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.block-4 {
+    background: url(img-four.jpeg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.block-5 {
+    background: url(img-five.jpeg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.container {
+    margin-top: 200px;
+    margin-left: 200px;
+}
+
+.block-1 h1,
+.block-3 h1,
+.block-5 h1 {
+    bottom: 0;
+    right: -60px;
+}
+
+.block-2 h1,
+.block-4 h1 {
+    right: -60px;
+}
